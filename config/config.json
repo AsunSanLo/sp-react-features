@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/spReactFeatures/SpReactFeaturesWebPart.manifest.json"
         }
       ]
+    },
+    "ms-graph-features-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msGraphFeatures/MsGraphFeaturesWebPart.js",
+          "manifest": "./src/webparts/msGraphFeatures/MsGraphFeaturesWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SpReactFeaturesWebPartStrings": "lib/webparts/spReactFeatures/loc/{locale}.js"
+    "SpReactFeaturesWebPartStrings": "lib/webparts/spReactFeatures/loc/{locale}.js",
+    "MsGraphFeaturesWebPartStrings": "lib/webparts/msGraphFeatures/loc/{locale}.js"
   }
 }
